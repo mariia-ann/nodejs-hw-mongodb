@@ -29,21 +29,6 @@ parameters:
       enum: ['asc', 'desc']
       example: 'asc'
   - in: query
-    name: name
-    schema:
-      type: string
-      example: 'John Doe'
-  - in: query
-    name: phoneNumber
-    schema:
-      type: string
-      example: '+380775674646'
-  - in: query
-    name: email
-    schema:
-      type: string
-      example: 'JohnDoe@example.com'
-  - in: query
     name: isFavourite
     schema:
       type: boolean
